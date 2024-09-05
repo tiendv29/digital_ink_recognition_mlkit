@@ -1,0 +1,26 @@
+name: digital_ink_recognition_mlkit
+description: A Flutter plugin to use Google's ML Kit Digital Ink Recognition to recognize handwritten text on a digital surface in hundreds of languages, as well as classify sketches.
+version: 0.0.4
+homepage: https://github.com/hungnmdev2079/digital_ink_recognition_mlkit.git
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.hungnm.digital_ink_recognition_mlkit
+        pluginClass: DigitalInkRecognitionMlkitPlugin
+      ios:
+        pluginClass: DigitalInkRecognitionMlkitPlugin
