@@ -15,7 +15,7 @@ A new Flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'GoogleMLKit/DigitalInkRecognition', '~> 5.0.1'
+  s.dependency 'GoogleMLKit/DigitalInkRecognition', '~> 5.0.0'
   s.platform = :ios, '12.0'
   s.ios.deployment_target = '12.0'
   s.static_framework = true
