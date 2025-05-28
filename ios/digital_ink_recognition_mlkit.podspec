@@ -18,8 +18,8 @@ A new Flutter plugin project.
   s.dependency 'GoogleMLKit/DigitalInkRecognition', '~> 5.0.0'
 
   # Override GoogleUtilities versions
-  s.dependency 'GoogleUtilities/Logger', '~> 7.13'
-  s.dependency 'GoogleUtilities/UserDefaults', '~> 7.13'
+  s.dependency 'GoogleUtilities/Logger', '~> 7.12'
+  s.dependency 'GoogleUtilities/UserDefaults', '~> 7.12'
 
   s.platform = :ios, '13.0'
   s.ios.deployment_target = '13.0'
