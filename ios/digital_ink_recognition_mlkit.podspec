@@ -15,7 +15,7 @@ A new Flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'GoogleMLKit/DigitalInkRecognition', '~> 5.0.0'
+  s.dependency 'GoogleMLKit/DigitalInkRecognition', '~> 4.0.0'
 
   # Override GoogleUtilities versions
   s.dependency 'GoogleUtilities/Logger', '~> 7.13'
